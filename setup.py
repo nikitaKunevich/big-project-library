@@ -1,7 +1,8 @@
+import library
 from setuptools import setup, find_packages
 
 setup(
-    name='library',
-    version='0.0.1',
+    name=library.name,
+    version=library.version,
     packages=find_packages(),
 )
